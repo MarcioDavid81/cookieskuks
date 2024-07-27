@@ -6,16 +6,16 @@ function Header() {
             <header>
                 <div className="container">
                     <section className='logo'>
-                        <img src="src\assets\imgs\logosf.png" alt="Logo Cookies Kuk's" />
+                        <a href=""><img src="src\assets\imgs\logosf.png" alt="Logo Cookies Kuk's" /></a>
                     </section>
             
                     <section className='menu-desktop'>
                         <nav>
                             <ul>
                                 <li><a href="#inicio">Home</a></li>
-                                <li><a href="#sobre">Cardápio</a></li>
-                                <li><a href="#servicos">Quem Somos</a></li>
-                                <li><a href="#servicos">Receitas</a></li>
+                                <li><a href="#cardapio">Cardápio</a></li>
+                                <li><a href="#sobre">Quem Somos</a></li>
+                                <li><a href="#receitas">Receitas</a></li>
                             </ul>
                         </nav>
                     </section>
@@ -29,9 +29,9 @@ function Header() {
                         <nav>
                             <ul>
                                 <li><a href="#inicio">Home</a></li>
-                                <li><a href="#sobre">Cardápio</a></li>
-                                <li><a href="#servicos">Quem Somos</a></li>
-                                <li><a href="#servicos">Receitas</a></li>
+                                <li><a href="#cardapio">Cardápio</a></li>
+                                <li><a href="#sobre">Quem Somos</a></li>
+                                <li><a href="#receitas">Receitas</a></li>
                             </ul>
                         </nav>
                     </section>
