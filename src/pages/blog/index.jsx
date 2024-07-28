@@ -6,12 +6,10 @@ function Blog () {
     return (
         <>
             <Header />
-            <section className="hero">
                 <Container>
                         <h1>Blog</h1>
                         <p>Este é o conteúdo da página Blog</p>
                 </Container>
-            </section>
             <Footer />
         </>
     )

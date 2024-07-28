@@ -6,12 +6,10 @@ function Cardapio () {
     return (
         <>
             <Header />
-            <section className="hero">
                 <Container>
                         <h1>Cardápio</h1>
                         <p>Este é o conteúdo da página Cardápio</p>
                 </Container>
-            </section>
             <Footer />
         </>
     )
