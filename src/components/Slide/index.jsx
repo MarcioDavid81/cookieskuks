@@ -12,12 +12,12 @@ function Slide () {
 
 
     const data = [
-        { id: '1', title: 'Slide 1', image: 'src/assets/imgs/cookie-cab6.jpg' },
-        { id: '2', title: 'Slide 2', image: 'src/assets/imgs/cookie-cab5.jpg' },
-        { id: '3', title: 'Slide 3', image: 'src/assets/imgs/cookie-cab4.jpg' },
-        { id: '4', title: 'Slide 4', image: 'src/assets/imgs/cookie-cab3.jpg' },
-        { id: '5', title: 'Slide 5', image: 'src/assets/imgs/cookie-cab2.jpg' },
-        { id: '6', title: 'Slide 6', image: 'src/assets/imgs/cookie-cab1.jpg' },
+        { id: '1', title: 'Slide 1', image: '/cookie-cab6.jpg' },
+        { id: '2', title: 'Slide 2', image: '/cookie-cab5.jpg' },
+        { id: '3', title: 'Slide 3', image: '/cookie-cab4.jpg' },
+        { id: '4', title: 'Slide 4', image: '/cookie-cab3.jpg' },
+        { id: '5', title: 'Slide 5', image: '/cookie-cab2.jpg' },
+        { id: '6', title: 'Slide 6', image: '/cookie-cab1.jpg' },
     ]
 
     return (
