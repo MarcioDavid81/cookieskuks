@@ -1,0 +1,23 @@
+.navbar a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-right: 2rem;
+}
+.navbar a:hover{
+    color: var(--quaternary-color);
+}
+
+.navmobile{
+    display: none;
+}
+
+@media (width <= 768px){
+    .navmobile{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+}

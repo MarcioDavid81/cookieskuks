@@ -3,11 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container{
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+h1, h2, h3 {
+  font-family: var(--title-font);
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+p {
+  font-family: var(--text-font);
+}
+a{
+  text-decoration: none;
 }
 
 :root {
@@ -18,6 +23,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  --title-font: "Berkshire Swash", cursive;
+  --text-font: "Josefin Sans", sans-serif;
   --primary-color: #4A1003;
   --secondary-color: #96451C;
   --tertiary-color: #EEC688;

@@ -1,0 +1,44 @@
+import styles from './Hero.module.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { register } from 'swiper/element/bundle';
+
+register();
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
+function Hero () {
+
+
+    const data = [
+        { id: '1', title: 'Slide 1', image: 'src/assets/imgs/cookie-cab6.jpg' },
+        { id: '2', title: 'Slide 2', image: 'src/assets/imgs/cookie-cab5.jpg' },
+        { id: '3', title: 'Slide 3', image: 'src/assets/imgs/cookie-cab4.jpg' },
+        { id: '4', title: 'Slide 4', image: 'src/assets/imgs/cookie-cab3.jpg' },
+        { id: '5', title: 'Slide 5', image: 'src/assets/imgs/cookie-cab2.jpg' },
+        { id: '6', title: 'Slide 6', image: 'src/assets/imgs/cookie-cab1.jpg' },
+    ]
+
+    return (
+        <div className={styles.hero}>
+            <Swiper
+                slidesPerView={1}
+                pagination={{ clickable: true }}
+                navigation
+            >
+                {data.map((item) => (
+                    <SwiperSlide key={item.id}>
+                        <img
+                            src={item.image}
+                            alt={item.title}
+                            className={styles.slideItem}
+                        />
+                    </SwiperSlide>
+                ))}
+            </Swiper>
+        </div>
+    );
+}
+
+export default Hero;
