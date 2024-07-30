@@ -6,12 +6,29 @@
     color: white;
     background-color: var(--primary-color);
     padding: 15px 20px;
-    border-radius: 10px 30px 10px 30px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
     cursor: pointer;
     transition: 0.5s;
 
     &:hover{
-        background-color: var(--quaternary-color);
-        color: var(--primary-color);
+        transform: scale(1.05);
+    }
+}
+.waicon{
+    font-size: 7rem;
+    color: white;
+}
+
+@media (max-width: 768px){
+    .wabutton{
+        width: 100px;
+        height: 100px;
+        padding: 10px 15px;
     }
 }

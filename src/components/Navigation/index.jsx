@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './Navigation.module.css';
+import MenuMobile from '../MenuMobile';
 function Nav () {
     return (
         <>
@@ -11,11 +12,7 @@ function Nav () {
         </nav>
 
         <nav className={styles.navmobile}>
-            <Link to="/">Home</Link>
-            <Link to="/cardapio">Cardápio</Link>
-            <Link to="/sobre">Quem Somos</Link>
-            <Link to="/blog">Blog</Link>
-
+            <MenuMobile />
         </nav>
         </>
     )

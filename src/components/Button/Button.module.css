@@ -2,7 +2,7 @@
     background-color: var(--primary-color);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: flex;
@@ -12,8 +12,13 @@
     transition: 0.5s;
 
     &:hover {
-        background-color: var(--quaternary-color);
-        color: var(--primary-color);
+        transform: scale(1.05);
     }
 
+}
+
+@media ( max-width: 768px){
+    .button{
+        display: none;
+    }
 }
