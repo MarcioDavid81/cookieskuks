@@ -1,0 +1,66 @@
+.hero{
+    width: 100%;
+    height: calc(100vh - 60px);
+    animation: animate 20s ease-in-out infinite;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.outer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    text-align: justify;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    h2{
+        font-size: 4rem;
+        line-height: 0.8;
+        padding-bottom: 2rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+
+    span{
+        font-size: 6rem;
+        color: var(--tertiary-color);
+    }
+}
+
+@keyframes animate {
+    0%, 100% {
+        background-image: url('/cookie-cab1.jpg');
+    }
+    25% {
+        background-image: url('/cookie-cab2.jpg');
+    }
+    50% {
+        background-image: url('/cookie-cab3.jpg');
+    }
+    75% {
+        background-image: url('/cookie-cab4.jpg');
+    }
+}
+
+@media (max-width: 768px){
+    .outer{
+        h2{
+            font-size: 2.5rem;
+        }
+
+        p{
+            font-size: 1.2rem;
+        }
+
+        span{
+            font-size: 4rem;
+        }
+    }
+}   
