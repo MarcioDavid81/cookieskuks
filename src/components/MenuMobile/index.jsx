@@ -1,17 +1,22 @@
 import { Link } from 'react-router-dom';
 import styles from './MenuMobile.module.css';
 import { GrClose } from 'react-icons/gr';
+import { FaHome } from 'react-icons/fa';
+import { MdOutlineMenuBook } from 'react-icons/md';
+import { IoNewspaper } from 'react-icons/io5';
+import { TbMailFilled } from 'react-icons/tb';
+import { RiInformation2Fill } from 'react-icons/ri';
 
 function MenuMobile () {
     return (
         <div>
-            <GrClose className={styles.close} />
             <nav className={styles.menumobile}>
-                <Link to="/">Home</Link>
-                <Link to="/cardapio">Cardápio</Link>
-                <Link to="/sobre">Quem Somos</Link>
-                <Link to="/blog">Blog</Link>
-                <Link to="/contato">Contato</Link>
+                <GrClose className={styles.close} />
+                <Link to="/"><FaHome /> Home</Link>
+                <Link to="/cardapio"><MdOutlineMenuBook /> Cardápio</Link>
+                <Link to="/sobre"><RiInformation2Fill /> Quem Somos</Link>
+                <Link to="/blog"><IoNewspaper /> Blog</Link>
+                <Link to="/contato"><TbMailFilled /> Contato</Link>
             </nav>
         </div>
     )

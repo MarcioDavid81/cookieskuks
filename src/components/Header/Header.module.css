@@ -10,3 +10,20 @@
     color: var(--primary-color);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+.openMenu{
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    display: none;
+}
+
+@media (max-width: 768px){
+    .header{
+        justify-content: space-evenly;
+    }
+
+    .openMenu{
+        display: block;
+        cursor: pointer;
+    }
+}
