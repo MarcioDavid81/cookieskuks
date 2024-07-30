@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px 0;
-    background-image: url('../../../src/assets/imgs/cookie-cab4.jpg');
+    background-image: url('/cookie-cab4.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
