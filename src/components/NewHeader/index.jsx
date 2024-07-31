@@ -18,7 +18,10 @@ function NewHeader() {
     <>
         <header className={styles.new_header}>
             <Logo />
-            <nav className={`${styles.new_navbar} ${showMenu ? styles.show : ''}`}>
+            <nav
+                className={`${styles.new_navbar} ${showMenu ? styles.show : ''}`}
+                onClick={toggleMenu}
+            >
                 <Link to="/">Home</Link>
                 <Link to="/cardapio">Cardápio</Link>
                 <Link to="/sobre">Quem Somos</Link>
