@@ -1,14 +1,14 @@
 import Container from "../../components/Container"
 import Footer from "../../components/Footer"
-import Header from "../../components/Header"
 import Hero from "../../components/Hero"
+import NewHeader from "../../components/NewHeader"
 import Slide from "../../components/Slide"
 import styles from "./Blog.module.css"
 
 function Blog () {
     return (
         <>
-            <Header />
+            <NewHeader />
                 <Hero />
                 <Container>
                         <div className={styles.blog}>

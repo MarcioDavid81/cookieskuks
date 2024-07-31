@@ -1,16 +1,17 @@
-import Header from '../../components/Header';
+
 import Footer from '../../components/Footer';
 import Container from '../../components/Container';
 import styles from './Home.module.css';
 import Slide from '../../components/Slide';
 import Hero from '../../components/Hero';
+import NewHeader from '../../components/NewHeader';
 
 
 function Home () {
 
     return (
         <>
-            <Header />
+            <NewHeader />
             <Hero />
                 <Container>
                     <div className={styles.home}>

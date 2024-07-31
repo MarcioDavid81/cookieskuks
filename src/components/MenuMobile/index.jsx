@@ -9,6 +9,7 @@ import { RiInformation2Fill } from 'react-icons/ri';
 
 
 function MenuMobile () {
+
     return (
         <div>
             <nav className={styles.menumobile} >

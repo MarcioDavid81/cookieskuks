@@ -9,14 +9,13 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 function Header () {
 
-
     return (
         <>
             <header className={styles.header}>
                 <Logo />
                 <Nav />
                 <Button />
-                <GiHamburgerMenu className={styles.openMenu} />
+                <GiHamburgerMenu  className={styles.openMenu} />
             </header>
         </>
     )
