@@ -9,6 +9,9 @@
     color: var(--primary-color);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+.new_navbar svg{
+    display: none;
+}
 .new_navbar a{
     text-decoration: none;
     color: var(--primary-color);
@@ -28,6 +31,15 @@
 @media (max-width: 768px){
     .new_navbar{
         display: none;
+    }
+    .new_navbar svg{
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
     }
     .open_menu{
         display: block;
@@ -50,7 +62,7 @@
         transition: all 0.5s;
         animation: showmenu 0.5s;
     }
-
+  
     @keyframes showmenu{
         from{
             transform: translateX(100%);
@@ -79,5 +91,9 @@
         justify-content: center;
         align-items: center;
         background-color: rgba(74, 10, 03, 0.9);
+    }
+    .new_navbar svg{
+        top: 150px;
+        left: auto;
     }
 }

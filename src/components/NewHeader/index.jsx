@@ -4,6 +4,7 @@ import styles from "./NewHeader.module.css";
 import { Link } from "react-router-dom";
 import Button from "../Button";
 import { useState } from "react";
+import { GrClose } from "react-icons/gr";
 
 
 
@@ -22,6 +23,7 @@ function NewHeader() {
                 className={`${styles.new_navbar} ${showMenu ? styles.show : ''}`}
                 onClick={toggleMenu}
             >
+                <GrClose className={styles.close}/>
                 <Link to="/">Home</Link>
                 <Link to="/cardapio">Cardápio</Link>
                 <Link to="/sobre">Quem Somos</Link>
