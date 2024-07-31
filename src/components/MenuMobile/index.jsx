@@ -7,11 +7,12 @@ import { IoNewspaper } from 'react-icons/io5';
 import { TbMailFilled } from 'react-icons/tb';
 import { RiInformation2Fill } from 'react-icons/ri';
 
+
 function MenuMobile () {
     return (
         <div>
-            <nav className={styles.menumobile}>
-                <GrClose className={styles.close} />
+            <nav className={styles.menumobile} >
+                <GrClose className={styles.close}/>
                 <Link to="/"><FaHome /> Home</Link>
                 <Link to="/cardapio"><MdOutlineMenuBook /> Cardápio</Link>
                 <Link to="/sobre"><RiInformation2Fill /> Quem Somos</Link>
