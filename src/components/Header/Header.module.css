@@ -42,6 +42,16 @@
     gap: 2rem;
     background-color: rgba(0, 0, 0, 0.9);
     z-index: 10;
+    animation: showmenu 0.5s;
+}
+
+@keyframes showmenu{
+    from{
+        transform: translatex(100%);
+    }
+    to{
+        transform: translatex(0%);
+    }
 }
 
 .menumobile a{
