@@ -1,14 +1,14 @@
 import Container from "../../components/Container"
 import Footer from "../../components/Footer"
 import Hero from "../../components/Hero"
-import NewHeader from "../../components/NewHeader"
+import Header from "../../components/Header"
 import Slide from "../../components/Slide"
 import styles from "./Contato.module.css"
 
 function Contato () {
     return (
         <>
-            <NewHeader />
+            <Header />
             <Hero />
             <Container>
                 <div className={styles.contato}>

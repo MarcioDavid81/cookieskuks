@@ -4,14 +4,15 @@ import Container from '../../components/Container';
 import styles from './Home.module.css';
 import Slide from '../../components/Slide';
 import Hero from '../../components/Hero';
-import NewHeader from '../../components/NewHeader';
+
+import Header from '../../components/Header';
 
 
 function Home () {
 
     return (
         <>
-            <NewHeader />
+            <Header />
             <Hero />
                 <Container>
                     <div className={styles.home}>
