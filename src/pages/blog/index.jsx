@@ -8,18 +8,18 @@ import styles from "./Blog.module.css"
 function Blog () {
     return (
         <>
-                <Header />
-                <Hero />
-                <Container>
-                        <div className={styles.blog}>
-                            <h1>Blog</h1>
-                            <p>Este é o conteúdo da página Blog</p>
-                        </div>
-                        <Slide />
-                </Container>
+            <Header />
+            <Hero />
+            <Container>
+                <div className={styles.blog}>
+                    <h1>Blog</h1>
+                    <p>Este é o conteúdo da página Blog</p>
+                </div>
+                <Slide />
+            </Container>
             <Footer />
         </>
     )
 }
 
-export default Blog
+export default Blog;

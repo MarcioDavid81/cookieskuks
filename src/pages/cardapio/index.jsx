@@ -8,18 +8,18 @@ import styles from "./Cardapio.module.css"
 function Cardapio () {
     return (
         <>
-                <Header />
-                <Hero />
-                <Container>
-                        <div className={styles.cardapio}>
-                            <h1>Cardápio</h1>
-                            <p>Este é o conteúdo da página Cardápio</p>
-                        </div>
-                        <Slide />
-                </Container>
+            <Header />
+            <Hero />
+            <Container>
+                <div className={styles.cardapio}>
+                    <h1>Cardápio</h1>
+                    <p>Este é o conteúdo da página Cardápio</p>
+                </div>
+                <Slide />
+            </Container>
             <Footer />
         </>
     )
 }
 
-export default Cardapio
+export default Cardapio;
