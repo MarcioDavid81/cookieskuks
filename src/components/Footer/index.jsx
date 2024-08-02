@@ -8,7 +8,7 @@ function Footer() {
       </section>
 
 
-        <div>
+        <div className={styles.copy}>
           <p>Feito com 💕 e 🍫 por <a href="https://futurodev-marcio.netlify.app/" target='_blank'>Marcio David - Web Developer</a></p>
         </div>
 

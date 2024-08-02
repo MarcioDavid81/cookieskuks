@@ -15,19 +15,16 @@
     width: 100%;
     color: white;
     text-align: justify;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
     h2{
         font-size: 4rem;
         line-height: 0.8;
         padding-bottom: 2rem;
-        color: var(--found-color);
         -webkit-text-stroke: 1px var(--primary-color);
     }
 
     p{
         font-size: 1.5rem;
-        color: var(--found-color);
     }
 
     span{

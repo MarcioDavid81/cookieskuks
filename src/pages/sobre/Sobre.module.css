@@ -4,6 +4,59 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-color: #f5f5f5;
+    height: auto;
+}
+article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    h2{
+        font-family: var(--text-font);
+        font-size: 2rem;
+        padding-top: 50px;
+    }
+    hr{
+        width: 50%;
+        border: 1px solid var(--primary-color);
+        margin: 20px 0;
+    }
+    p{
+        text-justify: justify;
+        text-indent: 10%;
+        font-size: 1.2rem;
+        padding: 20px 0;
+    }
+}
+
+/* Responsividade Breack Point 900px */
+
+@media (max-width: 900px){
+    .sobre{
+        padding: 100px 20px;
+    }
+    .sobre h2{
+        font-size: 2.2rem;
+    }
+    .sobre p{
+        font-size: 1.1rem;
+    }
+}
+
+
+/* Responsividade Breack Point 768px */
+
+@media (max-width: 768px){
+    .sobre{
+        padding: 100px 10px;
+    }
+    .sobre h2{
+        font-size: 1.8rem;
+    }
+    .sobre p{
+        font-size: 1rem;
+    }
 }

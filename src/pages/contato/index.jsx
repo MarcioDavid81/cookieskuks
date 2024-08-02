@@ -2,7 +2,6 @@ import Container from "../../components/Container"
 import Footer from "../../components/Footer"
 import Hero from "../../components/Hero"
 import Header from "../../components/Header"
-import Slide from "../../components/Slide"
 import styles from "./Contato.module.css"
 
 function Contato () {
@@ -15,7 +14,6 @@ function Contato () {
                     <h1>Contato</h1>
                     <p>Este é o conteúdo da página Contato</p>
                 </div>
-                <Slide />
             </Container>
             <Footer />
         </>

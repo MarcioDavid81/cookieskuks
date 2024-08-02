@@ -18,10 +18,10 @@
     text-align: center;
     margin: 0;
 }
-.footer div{
+.footer .copy{
     width: 100%;
-    height: auto;
-    padding: 2px 0;
+    height: 30px;
+    padding-top: 20px;
     background-color: var(--primary-color);
     color: var(--found-color);
     font-size: 0.8rem;
