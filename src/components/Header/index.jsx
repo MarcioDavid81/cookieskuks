@@ -3,7 +3,7 @@ import Button from '../Button';
 import Logo from '../Logo';
 import Nav from '../Navigation';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import MenuMobile from '../MenuMobile';
 import { GrClose } from 'react-icons/gr';
 import { Link } from 'react-router-dom';
@@ -21,6 +21,14 @@ function Header () {
     const toggleMenu = () => {
         setShowMenu(!showMenu);
     }
+
+    useEffect(() => {
+        if (showMenu) {
+            document.querySelector('body').style.overflow = 'hidden';
+        } else {
+            document.querySelector('body').style.overflow = 'auto';
+        }
+    }, [showMenu]);
 
     return (
         <>
